@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Fangeria</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <!-- --------------Header Section-------------  -->
+
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+              </nav>
+
+              <div class="header-text">
+                <span class="auto-type"></span>
+                <h1>Hi, I'm <span>Aman</span><br>Fangeria</h1>
+              </div>    
+
+
+            </div>
+        </div>
+        
+        
+        <!-- --------------About Section-------------  -->
+        
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.png" alt="">
+                </div>
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there, I'm Aman, a dedicated 3rd-year CSE engineering student with a passion for coding, video editing, and open-source collaboration. My journey involves mastering C++, exploring the MERN stack, and diving into the world of DevOps. As an enthusiast for technology's creative potential, I'm excited to contribute my skills and bring innovative ideas to life.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Development</span><br>Html, CSS, Bootstrap, Tailwind, Web Animations, NPM, JavaScript/ES6, JQuery, React</li>
+                            <li><span>Backend Development</span><br>Node, Firebase, MySQL, MongoDB</li>
+                            <li><span>DevOps</span><br>Git & GitHub, Shell Scripting, Linux, Maven, Gradle, Jenkins, Sonatype Nexus, Docker, Kubernetes</li>
+                            <li><span>Languages</span><br>C, C++ (DSA) , Java, Python</li>
+                            <li><span>Video Editing & Designing</span><br>Canva, Adobe Premiere Pro</li>
+                            <li><span>Teaching</span><br>Aman Fangeria - YouTube</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+
+                            <li><span>2023(February-May)</span><br>Did Freelancing for a Foreign Client</li>
+                            <li><span>2022-Current</span><br>Teach Technical Concepts on YouTube</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span><br>Pursuing B.E (CSE) - Chitkara University</li>
+                            <li><span>2014</span><br>Complete 12th (PCM)- 93% - BNS DAV Public School</li>
+                            <li><span>2019</span><br>Completed 10th - 89% - BNS DAV Public School </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+     <!-- -----------------Services Section----------------------->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Development</h2>
+                    <p>Crafting digital experiences that seamlessly blend creativity and functionality through expert website development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-clapperboard"></i>
+                    <h2>Video Editing</h2>
+                    <p>Transforming raw footage into captivating narratives through expert video editing.</p>
+                    <a href="#">Learn more</a>
+                </div>  
+
+                <div>
+                    <i class="fa-regular fa-compass"></i>
+                    <h2>Personal Mentoring</h2>
+                    <p>Guiding your path to success through personalized mentoring sessions encompassing roadmaps, DSA, coding, and web development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     
+     <!-- -----------------Portfolio Section----------------------->
+
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, velit veniam vel animi natus libero?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Spotify App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, velit veniam vel animi natus libero?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Ecommerce App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, velit veniam vel animi natus libero?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <a href="#" class="btn">See more</a>
+     <!-- ---------------Contact Section------------------------->
+     <div id="contact">
+         <div class="container">
+            <div class="row">                
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>amanfangeria980@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9801801777</p>
+                    <div class="social-icons">
+                        <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+                        <a href="https://in.linkedin.com/in/amanfangeria" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/aman_fangeria?lang=en" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <!-- <a href="https://www.instagram.com/amanfangeria/" target="_blank"><i class="fa-brands fa-instagram"></i></a> -->
+                        <a href="https://github.com/amanfangeria980" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.youtube.com/channel/UC0J0ZjOHgouJTaBuO9g6iIw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <!-- https://leetcode.com/amanfang/ -->
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/f71346790582c3e97b96c0b06822a58e" value="#contact" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <input type="hidden" name="_next" value="#contact">
+                        <input type="hidden" name="_captcha" value="false">
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="message"></span>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Made with <i class="fa-solid fa-heart"></i> by Aman Fangeria</p>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a7c36ab51f.js" crossorigin="anonymous"></script>
+</body>
+</html>
