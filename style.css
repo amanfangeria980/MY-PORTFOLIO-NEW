@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito:wght@200;300;400;600&family=Poppins:wght@300;400;600;800&display=swap');
 
+*{
+    /* --var-red: #ff004f; */
+    --var-red: rgb(36, 128, 36);
+    --var-white: #fff;
+    --var-grey: #ababab;
+    --var-red-1: rgb(45, 117, 45);
+}
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Nunito', sans-serif;
@@ -17,7 +24,7 @@ html{
 
 body{
     background-color: #080808;
-    color: #fff;
+    color: var(--var-white);
 }
 
 #header{
@@ -25,7 +32,7 @@ body{
     height: 100vh;
     background-image: url(images/background2.png);
     background-size: cover;
-    background-position: cen ter;
+    background-position: center;
 }
 
 
@@ -51,7 +58,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #fff;
+    color: var(--var-white);
     text-decoration: none;
     font-size: 18px;
     position: relative;  
@@ -61,7 +68,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: var(--var-red);
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -80,7 +87,7 @@ nav ul li a:hover::after{
 }
 
 .auto-type{
-    color: #fff;
+    color: var(--var-white);
 }
 
 .header-text h1{
@@ -89,14 +96,14 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: #ff004f;
+    color: var(--var-red);
 }
 
 
 /* -------------About Us------------------ */
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: var(--var-grey);
 }
 
 .row{
@@ -142,7 +149,7 @@ nav ul li a:hover::after{
     content: '';
     width:0;
     height: 3px;
-    background-color: #ff004f;
+    background-color: var(--var-red);
     position: absolute;
     bottom: -8px;
     left: 0;
@@ -158,7 +165,8 @@ nav ul li a:hover::after{
     margin: 10px 0; 
 }
 .tab-contents ul li span{
-    color: #b54769;
+    /* color: #b54769; */
+    color: var(--var-red-1);
     font-size: 14px;
 }
 
@@ -206,14 +214,14 @@ nav ul li a:hover::after{
 
 .service-list div a{
     text-decoration: none;
-    color: #fff;
+    color: var(--var-white);
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
 
 .service-list div:hover{
-    background: #ff004f;
+    background: var(--var-red);
     transform: translateY(-10px);
     /* transform: scale(1.05); */
 }
@@ -246,7 +254,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6),var(--var-red));
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -269,10 +277,10 @@ nav ul li a:hover::after{
 
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: var(--var-red);
     font-size: 18px;
     line-height: 60px;
-    background: #fff;
+    background: var(--var-white);
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -291,7 +299,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid var(--var-red);
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -300,7 +308,7 @@ nav ul li a:hover::after{
 }
 
 .btn:hover{
-    background: #ff004f;
+    background: var(--var-red);
 
 }
 
@@ -319,7 +327,7 @@ nav ul li a:hover::after{
 }
 
 .contact-left p i{
-    color: #ff004f;
+    color: var(--var-red);
     margin-right: 15px;
     font-size: 25px;
 }
@@ -332,19 +340,19 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 25px;
     margin-right: 15px;
-    color: #ababab;
+    color: var(--var-grey);
     display: inline-block;
     transition: 0.5s;
 }
 
 .social-icons a:hover{
-    color: #ff004f;
+    color: var(--var-red);
     transform: translateY(-5px);
 }
 
 .btn.btn2{
     display: inline-block;
-    background-color: #ff004f;
+    background-color: var(--var-red);
 }
 
 .contact-right form{
@@ -358,7 +366,7 @@ form input, form textarea{
     background: #262626;
     padding: 15px;
     margin: 15px;
-    color: #fff;
+    color: var(--var-white);
     font-size: 18px;
     border-radius: 6px;
 }
@@ -380,7 +388,7 @@ form .btn2{
 }
 
 .copyright i{
-    color: #ff004f;
+    color: var(--var-red);
 }
 
 
@@ -407,7 +415,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: var(--var-red);
         position: fixed;
         top: 0;
         right: -200px;
